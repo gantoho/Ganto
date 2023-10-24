@@ -18,7 +18,7 @@ export default function MainTabBar(){
         <Link
           className={`item${pathname === '/project' ? ' active' : ''}`}
           to="/project"
-        >项目</Link>
+        >Dev</Link>
         <a className='item outside' rel="noreferrer" target="_blank" href="https://www.cnblogs.com/ganto">博客</a>
         <a className='item travellings outside' rel="noreferrer" target="_blank" href="https://travellings.cn/go.html">开往</a>
       </div >
