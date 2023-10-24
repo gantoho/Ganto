@@ -1,0 +1,30 @@
+.home {
+  width: 100%;
+
+  p:first-child{
+    margin-top: 0;
+  }
+
+  p {
+    margin: 16px 0;
+    line-height: 22px;
+
+    i {
+      display: block;
+    }
+
+    a {
+      display: inline-block;
+      text-decoration: none;
+      border-bottom: 1px solid rgb(86, 86, 86);
+      color: #fff;
+      &:hover {
+        border-bottom: 1px solid rgb(255, 255, 255);
+      }
+    }
+  }
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+}

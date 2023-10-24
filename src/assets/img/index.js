@@ -1,0 +1,6 @@
+export { default as headerBgImg001 } from './MacOS13.jpg'
+export { default as headerBgImg002 } from './header_bg_img_001.jpg'
+export { default as headerBgImg003 } from './header_bg_img_002.jpeg'
+export { default as headerBgImg004 } from './header_bg_img_003.png'
+export { default as headerBgImg005 } from './header_bg_img_004.jpg'
+export { default as headerBgImg006 } from './header_bg_img_005.jpg'
