@@ -19,7 +19,7 @@ export default function Section() {
         <Routes>
           <Route path="/home" element={<Home />} />
           <Route path="/bookmarks" element={<Bookmarks />} />
-          <Route path="/project" element={<Project />} />
+          <Route path="/dev" element={<Project />} />
           <Route path="/chat" element={<ChatGPT />} />
           <Route path="*" element={<Redirect to="/home" />} />
         </Routes>

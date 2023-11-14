@@ -15,12 +15,12 @@ export default function MainTabBar(){
           className={`item${pathname === '/bookmarks' ? ' active' : ''}`}
           to="/bookmarks"
         >书签</Link>
-        <Link
-          className={`item${pathname === '/project' ? ' active' : ''}`}
-          to="/project"
-        >Dev</Link>
         <a className='item outside' rel="noreferrer" target="_blank" href="https://www.cnblogs.com/ganto">博客</a>
-        <a className='item travellings outside' rel="noreferrer" target="_blank" href="https://travellings.cn/go.html">开往</a>
+        <a className='item travellings outside' rel="noreferrer" target="_blank" href="https://www.travellings.cn/go.html">开往</a>
+        <Link
+          className={`item${pathname === '/dev' ? ' active' : ''}`}
+          to="/dev"
+        >Dev</Link>
       </div >
     )
 }
