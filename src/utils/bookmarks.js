@@ -7,7 +7,7 @@ export const bookmarks = [
   },
   {
     name: "JavaScript",
-    link: "",
+    link: "https://developer.mozilla.org/zh-CN/docs/Web/JavaScript",
     backgroundColor: "#fcdc00",
     color: "#181818"
   },
