@@ -1,11 +1,5 @@
 export const bookmarks = [
   {
-    name: "Golang",
-    link: "https://go.dev",
-    backgroundColor: "#79d4fd",
-    color: "#000000"
-  },
-  {
     name: "JavaScript",
     link: "https://developer.mozilla.org/zh-CN/docs/Web/JavaScript",
     backgroundColor: "#fcdc00",
@@ -22,6 +16,12 @@ export const bookmarks = [
     link: "https://zh-hans.reactjs.org",
     backgroundColor: "#61dafb",
     color: "#000000"
+  },
+  {
+    name: "Angular",
+    link: "https://angular.cn",
+    backgroundColor: "#e22d37",
+    color: "#fff"
   },
   {
     name: "Svelte",
@@ -66,6 +66,12 @@ export const bookmarks = [
     color: "#ffffff"
   },
   {
+    name: "Golang",
+    link: "https://go.dev",
+    backgroundColor: "#79d4fd",
+    color: "#000000"
+  },
+  {
     name: "Rust",
     link: "https://www.rust-lang.org",
     backgroundColor: "#000000",
@@ -77,29 +83,5 @@ export const bookmarks = [
     link: "https://docs.oracle.com/en/java/javase",
     backgroundColor: "#3a75b0",
     color: "#ffffff"
-  },
-  {
-    name: "C/C++",
-    link: "",
-    backgroundColor: "#d7506c",
-    color: "#961c36"
-  },
-  {
-    name: "Python",
-    link: "https://www.python.org",
-    backgroundColor: "#336c9c",
-    color: "#2c2016"
-  },
-  {
-    name: "PHP",
-    link: "https://www.php.net",
-    backgroundColor: "#7a86b8",
-    color: "#1f222e"
-  },
-  {
-    name: "Lua",
-    link: "http://www.lua.org",
-    backgroundColor: "#02027d",
-    color: "#ffffff"
-  },
+  }
 ]

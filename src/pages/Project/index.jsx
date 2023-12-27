@@ -20,14 +20,20 @@ export default function Project() {
     projectDataFunc()
   }, [])
 
+  const resetGetImg = debounce(() => {
+    projectDataFunc()
+  }, 1000)
+
   return (
     <div className='project'>
       {/* {projectData} */}
-      {
-        projectData ? <img src={`http://files.cevno.cn/files/` + projectData} alt="" /> : ""
-      }
-      
+      <div className="img">
+        {
+          projectData ? <img src={`http://files.cevno.cn/files/` + projectData} alt="" /> : ""
+        }
 
+        <div className="btn" onClick={resetGetImg}>重获</div>
+      </div>
       <Comments/>
     </div>
   )
